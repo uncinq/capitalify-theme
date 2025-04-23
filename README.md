@@ -1,0 +1,1 @@
+# capitalify-theme
