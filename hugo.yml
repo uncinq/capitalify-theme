@@ -1,0 +1,25 @@
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+    - source: layouts
+      target: layouts
+    - source: static
+      target: static
+
+# params:
+#   admin:
+#     fields:
+#       contact:
+#         - email
+#         - phone
+#         - fax
+#         - socials
+#       offer:
+#         - is_sold
+#         - price
+#         - price_sold
+#         - visits
+#         - date_sale

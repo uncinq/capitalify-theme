@@ -1,0 +1,39 @@
+admin:
+  blocks:
+    selectedplaces: Selected offices
+  collections:
+    places:
+      label: Offices
+      label_singular: Office
+      description: All offices
+  fields:
+    places_items: Offices
+    place: Office
+    persons_places: Attached to one or more offices?
+    visits: Visits
+credit:
+  hugolify: a low impact website crafted with <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - lien externe">Capitalify</a>
+expertises:
+  all: All the firm’s expertise
+  discover_persons: Our {{ .Title }} experts
+persons:
+  all: Everyone in the firm
+  discover_occupation:
+    consonant: Discover the {{ .Occupation }}
+    vowel: Discover the {{ .Occupation }}
+persons_places:
+  title:
+    one: Office
+    other: Offices
+places:
+  all: All offices
+  latest: Latest offices
+  discover: Discover the office
+  discover_persons: The office team
+  more: Discover more offices
+  title:
+    one: Office
+    other: Offices
+publications:
+  all: All the firm's publications
+with: With {{ .Persons }}

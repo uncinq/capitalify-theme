@@ -1,0 +1,43 @@
+admin:
+  blocks:
+    selectedplaces: Selection de cabinets
+  collections:
+    persons_places:
+      label: 
+        one: Cabinet
+        other: Cabinets
+    places:
+      _description: Tous les cabinets
+      label: 
+        one: Cabinet
+        other: Cabinets
+  fields:
+    places_items: Cabinets
+    place: Cabinet
+    persons_places: Rattaché à un ou plusieurs cabinets ?
+credit:
+  hugolify: un site éco-conçu produit avec <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - lien externe">Capitalify</a>
+expertises:
+  all: Toutes les expertises du cabinet
+  discover_persons: Nos experts en {{ .Title }}
+persons:
+  all: Toutes les personnes du cabinet
+  discover_occupation:
+    consonant: Découvir le {{ .Occupation }}
+    vowel: Découvir l’{{ .Occupation }}
+persons_places:
+  title:
+    one: Cabinet
+    other: Cabinets
+places:
+  all: Tous les cabinets
+  latest: Derniers cabinets
+  discover: Découvrez le cabinet
+  discover_persons: L’équipe du cabinet
+  more: Découvrir plus de cabinets
+  title:
+    one: Cabinet
+    other: Cabinets
+publications:
+  all: Toutes les parutions du cabinet
+with: Avec {{ .Persons }}

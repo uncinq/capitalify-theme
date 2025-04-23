@@ -1,0 +1,13 @@
+{{- $persons := partial "func/GetTaxonomyPageBySlug" (dict 
+  "section" "persons"
+  "taxonomy" "persons_places"
+  "slug" .File.TranslationBaseName) -}}
+{{- if $persons }}
+  <section class="places-persons">
+    <div class="container">
+      <h2>{{ i18n "places.discover_persons" (dict "Title" (.Title | lower)) }}</h2>
+      {{- $paginator := partial "func/GetPersonsOrderByStatutes" $persons -}}
+      {{ partial "persons/items" (dict "pages" $paginator) }}
+    </div>
+  </section>
+{{ end -}}
