@@ -6,12 +6,12 @@ Edit `config/_default/module.yaml` to install the `capitalify-theme` module:
 
 ```yml
 imports:
-  - path: github.com/hugolify/capitalify-theme
+  - path: github.com/uncinq/capitalify-theme
 ```
 
 ## Documentation
 
-https://github.com/hugolify/hugolify-template/wiki
+https://www.hugolify.io
 
 ## Licensing
 
