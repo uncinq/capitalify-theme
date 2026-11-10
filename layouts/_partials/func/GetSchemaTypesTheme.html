@@ -1,0 +1,18 @@
+{{/* GetSchemaTypesTheme
+     The schema.org types of the finance and wealth professions, added to the
+     generic ones of hugolify-theme, see func/GetSchemaTypes.html there.
+
+     All of them descend from FinancialService, a LocalBusiness: a financial
+     adviser, a wealth manager or a family office is a FinancialService, an
+     accountant an AccountingService, an insurance broker an InsuranceAgency.
+*/}}
+{{- $localBusiness := slice
+  "FinancialService"
+  "AccountingService"
+  "InsuranceAgency"
+-}}
+
+{{- return (dict
+  "organization" $localBusiness
+  "local_business" $localBusiness
+) -}}

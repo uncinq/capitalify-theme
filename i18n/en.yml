@@ -3,13 +3,19 @@ admin:
     selectedplaces: Selected offices
   collections:
     places:
-      label: Offices
-      label_singular: Office
-      description: All offices
+      _description: All offices
+      label:
+        one: Office
+        other: Offices
   fields:
     places_items: Offices
     place: Office
     persons_places: Attached to one or more offices?
+    schema_type:
+      options:
+        FinancialService: "Financial advice, wealth management"
+        AccountingService: "Accounting"
+        InsuranceAgency: "Insurance broker or agency"
     visits: Visits
 credit:
   hugolify: a low impact website crafted with <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - lien externe">Capitalify</a>

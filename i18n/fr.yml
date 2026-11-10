@@ -15,6 +15,11 @@ admin:
     places_items: Cabinets
     place: Cabinet
     persons_places: Rattaché à un ou plusieurs cabinets ?
+    schema_type:
+      options:
+        FinancialService: "Conseil financier, gestion de patrimoine"
+        AccountingService: "Expertise comptable"
+        InsuranceAgency: "Courtier, agent d’assurance"
 credit:
   hugolify: un site éco-conçu produit avec <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - lien externe">Capitalify</a>
 expertises:
