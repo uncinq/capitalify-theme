@@ -16,7 +16,6 @@ admin:
         FinancialService: "Financial advice, wealth management"
         AccountingService: "Accounting"
         InsuranceAgency: "Insurance broker or agency"
-    visits: Visits
 credit:
   hugolify: a low impact website crafted with <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - lien externe">Capitalify</a>
 expertises:

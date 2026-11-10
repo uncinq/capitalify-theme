@@ -9,17 +9,16 @@ module:
     - source: static
       target: static
 
-# params:
-#   admin:
-#     fields:
-#       contact:
-#         - email
-#         - phone
-#         - fax
-#         - socials
-#       offer:
-#         - is_sold
-#         - price
-#         - price_sold
-#         - visits
-#         - date_sale
+params:
+
+  # Admin
+  admin:
+    title: "Capitalify CMS"
+
+    # fields:
+    #   contact:
+    #     fields:
+    #       - email
+    #       - phone
+    #       - fax
+    #       - socials

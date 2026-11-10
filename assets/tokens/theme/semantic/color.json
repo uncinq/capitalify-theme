@@ -1,0 +1,26 @@
+{
+  "color": {
+    "brand": {
+      "default": {
+        "$value": "oklch(23.9% 0.065 291.2)",
+        "$type": "color",
+        "$description": "$primary #20183b. The design system's accent follows the brand, so it needs no token of its own."
+      },
+      "hover": {
+        "$value": "oklch(19.5% 0.055 291.2)",
+        "$type": "color",
+        "$description": "$primary, darker."
+      },
+      "muted": {
+        "$value": "oklch(88% 0.03 291.2)",
+        "$type": "color",
+        "$description": "$primary, as a light tint."
+      },
+      "strong": {
+        "$value": "oklch(12% 0.035 291.2)",
+        "$type": "color",
+        "$description": "$primary, near black."
+      }
+    }
+  }
+}
