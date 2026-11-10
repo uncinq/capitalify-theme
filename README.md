@@ -33,6 +33,16 @@ imports:
   - path: github.com/hugolify/hugolify-theme
 ```
 
+## Structured data
+
+The theme adds the schema.org types of the finance and wealth professions to the generic ones of hugolify-theme, through `layouts/_partials/func/GetSchemaTypesTheme.html`:
+
+- `FinancialService`, a financial adviser, a wealth manager or a family office
+- `AccountingService`, an accountant
+- `InsuranceAgency`, an insurance broker
+
+All three are local businesses. Hugolify admin offers them for the organization, under *Config › Structured data*, and for each place. A site that defines its own hook replaces this list, see [Structured data](https://www.hugolify.io/docs/customization/structured-data/#types).
+
 ## Design tokens
 
 The design-system layer is authored as [DTCG](https://www.designtokens.org/) token files under `assets/tokens/theme/` and compiled to custom properties with [Style Dictionary](https://styledictionary.com/):
