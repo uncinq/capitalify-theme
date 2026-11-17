@@ -1,6 +1,6 @@
 admin:
   blocks:
-    selectedplaces: Selection de cabinets
+    selectedplaces: Sélection de cabinets
   collections:
     persons_places:
       label: 
@@ -28,8 +28,8 @@ expertises:
 persons:
   all: Toutes les personnes du cabinet
   discover_occupation:
-    consonant: Découvir le {{ .Occupation }}
-    vowel: Découvir l’{{ .Occupation }}
+    consonant: Découvrir le {{ .Occupation }}
+    vowel: Découvrir l’{{ .Occupation }}
 persons_places:
   title:
     one: Cabinet

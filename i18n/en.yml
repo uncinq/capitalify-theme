@@ -17,7 +17,7 @@ admin:
         AccountingService: "Accounting"
         InsuranceAgency: "Insurance broker or agency"
 credit:
-  hugolify: a low impact website crafted with <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - lien externe">Capitalify</a>
+  hugolify: a low impact website crafted with <a href="https://www.capitalify.io" target="_blank" rel="noopener noreferrer" title="« Capitalify » - external link">Capitalify</a>
 expertises:
   all: All the firm’s expertise
   discover_persons: Our {{ .Title }} experts
